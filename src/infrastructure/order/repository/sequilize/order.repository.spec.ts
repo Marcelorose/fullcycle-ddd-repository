@@ -357,8 +357,6 @@ describe("Order repository test", () => {
       include: ["items"],
     });
 
-    console.log(orderModel2.toJSON()); // eslint-disable-line no-console
-
     expect(orderModel2.toJSON()).toStrictEqual({
       id: order.id,
       customer_id: order.customerId,
