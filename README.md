@@ -1,4 +1,4 @@
 # fullcycle-ddd-repository
 
-npm i
+npm i <br/>
 npm test
